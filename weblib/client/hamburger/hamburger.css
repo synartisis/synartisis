@@ -1,0 +1,10 @@
+/*  hamburger menu  */
+.syn-hamburger > ul { list-style: none; margin: 0; }
+.syn-hamburger ul { padding: 0; }
+.syn-hamburger ul > li li { display: block; white-space: nowrap; }
+.syn-large .syn-hamburger > button { display: none; }
+.syn-large .syn-hamburger > ul > li { display: inline-block; position: relative; }
+.syn-small .syn-hamburger > ul > li { display: block; }
+.syn-small .syn-hamburger:not(.syn-hamburger-open) > ul { display: none; }
+.syn-large .syn-hamburger > ul > li > ul { position: absolute; white-space1: pre; display: none; }
+.syn-large .syn-hamburger > ul > li:hover > ul { display: block; }

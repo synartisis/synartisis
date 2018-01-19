@@ -1,11 +1,12 @@
 {
   "name": "@synartisis/weblib",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "private": false,
-  "main": "index.js",
-  "scripts": {
-  },
+  "main": "./server/index.js",
+  "browser": "./client/index.js",
+  "style": "./client/index.css",
+  "scripts": {},
   "keywords": [],
   "author": "synartisis.gr",
   "license": "ISC"

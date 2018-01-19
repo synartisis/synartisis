@@ -1,0 +1,7 @@
+/* carousel */
+syn-carousel { display: block; position: relative; }
+syn-carousel > *:not(.controls) { position: absolute; opacity: 0; transition: opacity .3s; }
+syn-carousel > .active { opacity: 1; }
+syn-carousel .controls button { position: absolute; background: transparent; border: solid 1px #ddd; height: 50%; top: 25%; cursor: pointer; }
+syn-carousel .left-button { left: 1em; }
+syn-carousel .right-button { right: 1em; }
