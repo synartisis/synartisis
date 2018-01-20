@@ -1,0 +1,5 @@
+/*  flip card  */
+.syn-flip { position: relative; -webkit-transform-style: preserve-3d; transform-style: preserve-3d; -webkit-transition: transform .5s; transition: transform .5s; }
+.syn-flip > * { position: absolute; -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+.syn-flip .back { -webkit-transform: rotateY(180deg); transform: rotateY(180deg); }
+.syn-flip.flipped { -webkit-transform: rotateY(180deg); transform: rotateY(180deg); }
