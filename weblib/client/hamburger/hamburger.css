@@ -6,5 +6,5 @@
 .syn-large .syn-hamburger > ul > li { display: inline-block; position: relative; }
 .syn-small .syn-hamburger > ul > li { display: block; }
 .syn-small .syn-hamburger:not(.syn-hamburger-open) > ul { display: none; }
-.syn-large .syn-hamburger > ul > li > ul { position: absolute; white-space1: pre; display: none; }
+.syn-large .syn-hamburger > ul > li > ul { position: absolute; display: none; }
 .syn-large .syn-hamburger > ul > li:hover > ul { display: block; }

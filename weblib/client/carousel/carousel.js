@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
 
 function carousel() {
-  const carousels = querySelectorAll('syn-carousel')
+  const carousels = document.querySelectorAll('syn-carousel')
   if (!carousels.length) return
 
   carousels.forEach(function(carousel) {
