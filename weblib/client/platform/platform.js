@@ -32,5 +32,7 @@ function onResize() {
 function detectPlatform() {
   const isIE = !!navigator.userAgent.match(/Trident/g) || !!navigator.userAgent.match(/MSIE/g);
   if (isIE) return 'syn-ie'
+  const iOS = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 && navigator.appVersion && (navigator.appVersion.indexOf('iPad') !== -1 || navigator.appVersion.indexOf('iPhone') !== -1)
+  if (iOS) return 'syn-ios'
   return ''
 }
